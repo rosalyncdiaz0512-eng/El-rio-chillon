@@ -1,0 +1,247 @@
+<html style="margin:0;padding:0;">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+(function(){
+  var s = document.createElement('style');
+  s.textContent = ':root{--bg:#f6fbf9;--card:#ffffff;--text:#0f172a;--muted:#5b6b7a;--accent:#0d9488;--accent-soft:rgba(13,148,136,.14);--accent2:#c4693d;--accent2-soft:rgba(196,105,61,.14);--border:rgba(15,23,42,.08)}'
+  + '.reveal{opacity:0;transform:translateY(22px);animation:fu .7s ease forwards}'
+  + '.reveal:nth-child(2){animation-delay:.08s}.reveal:nth-child(3){animation-delay:.16s}.reveal:nth-child(4){animation-delay:.24s}.reveal:nth-child(5){animation-delay:.32s}.reveal:nth-child(6){animation-delay:.4s}'
+  + '@keyframes fu{to{opacity:1;transform:translateY(0)}}'
+  + '.station{transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}'
+  + '.station:hover{transform:translateY(-4px);border-color:var(--accent);box-shadow:0 14px 34px rgba(13,148,136,.16)}'
+  + '.station .dot{transition:transform .25s ease,background .25s ease}'
+  + '.station:hover .dot{transform:scale(1.25);background:var(--accent)}'
+  + '.river-line{background:linear-gradient(90deg,var(--accent) 0%,#38bdb0 50%,var(--accent) 100%);height:3px;border-radius:2px;position:relative;overflow:hidden}'
+  + '.river-line::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent,rgba(255,255,255,.6),transparent);animation:flow 2.4s linear infinite}'
+  + '@keyframes flow{0%{transform:translateX(-100%)}100%{transform:translateX(100%)}}'
+  + '.bar-fill{background:linear-gradient(90deg,#dc2626,#f97316);border-radius:6px;height:100%;transition:width 1.2s cubic-bezier(.2,.8,.2,1);width:0}'
+  + '.bar-fill.go{width:100%}'
+  + '.tl-item{position:relative;padding-left:28px}'
+  + '.tl-item::before{content:"";position:absolute;left:7px;top:8px;width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px var(--accent-soft)}'
+  + '.tl-line{position:absolute;left:10px;top:14px;bottom:-14px;width:2px;background:var(--border)}'
+  + 'a.src{color:var(--accent);text-decoration:underline;text-underline-offset:3px;text-decoration-color:rgba(13,148,136,.4)}';
+  document.head.appendChild(s);
+})();
+</script>
+<div style="background-color:transparent;box-sizing:border-box;">
+<div style="font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);">
+
+  <!-- HERO -->
+  <div class="reveal" style="position:relative;overflow:hidden;border-radius:0 0 28px 28px;">
+    <img src="https://p16-flow-image-sign.ibyteimg.com/tos-mya-i-3rsxbfecgb/rc_gen_image/afa7309ffb5149a787c3e56ae6689cc3.jpeg~tplv-0es2k971ck-image.image?rcl=202609242235588C61A1C0D3F729A4FB5C&rk3s=8e244e95&rrcfp=02a80fc2&x-expires=1792852662&x-signature=R9d0UeN7M5oewZKaagSupjtcHRQ%3D" alt="Ilustración del valle del río Chillón" loading="lazy" onerror="this.style.display='none'" style="width:100%;height:420px;object-fit:cover;display:block;">
+    <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,30,35,.25) 0%,rgba(10,30,35,.55) 55%,rgba(8,22,28,.85) 100%);"></div>
+    <div style="position:absolute;left:0;right:0;bottom:0;padding:36px 28px 32px;max-width:860px;margin:0 auto;">
+      <p style="font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:#7fe3d6;margin-bottom:10px;font-weight:600;">Geografía · Costa central del Perú</p>
+      <h1 style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(38px,7vw,68px);line-height:1.05;color:#fff;margin:0 0 10px;letter-spacing:-.01em;">Río <span style="background:linear-gradient(100deg,#5eead4,#c4693d);-webkit-background-clip:text;background-clip:text;color:transparent;">Chillón</span></h1>
+      <p style="color:#d6e7e5;font-size:16px;line-height:1.6;max-width:620px;margin:0;">El río que da vida a Lima Norte — 126 km desde los glaciares de la Cordillera La Viuda hasta el Pacífico, y una de las tres cuencas que sostienen a Lima Metropolitana.</p>
+      <p style="color:#8fb8b4;font-size:11px;margin-top:12px;">Ilustración decorativa del valle · Fuente: Wikipedia, ANA, El Comercio</p>
+    </div>
+  </div>
+
+  <div style="max-width:860px;margin:0 auto;padding:0 24px;">
+
+    <!-- FACT STRIP -->
+    <div class="reveal" style="display:flex;flex-wrap:wrap;gap:12px;margin:-26px 0 40px;position:relative;z-index:2;">
+      <div style="flex:1 1 160px;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px 18px;box-shadow:0 6px 20px rgba(15,23,42,.06);">
+        <p style="font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin:0 0 4px;font-weight:600;">Longitud</p>
+        <p style="font-size:26px;font-weight:800;margin:0;color:var(--text);font-variant-numeric:tabular-nums;">126 <span style="font-size:14px;font-weight:600;color:var(--muted);">km</span></p>
+      </div>
+      <div style="flex:1 1 160px;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px 18px;box-shadow:0 6px 20px rgba(15,23,42,.06);">
+        <p style="font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin:0 0 4px;font-weight:600;">Cuenca</p>
+        <p style="font-size:26px;font-weight:800;margin:0;color:var(--text);font-variant-numeric:tabular-nums;">2 444 <span style="font-size:14px;font-weight:600;color:var(--muted);">km²</span></p>
+      </div>
+      <div style="flex:1 1 160px;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px 18px;box-shadow:0 6px 20px rgba(15,23,42,.06);">
+        <p style="font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin:0 0 4px;font-weight:600;">Nacimiento</p>
+        <p style="font-size:15px;font-weight:700;margin:0;color:var(--text);line-height:1.3;">Cordillera La Viuda</p>
+        <p style="font-size:12px;color:var(--muted);margin:2px 0 0;">Laguna de Chonta, Canta</p>
+      </div>
+      <div style="flex:1 1 160px;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px 18px;box-shadow:0 6px 20px rgba(15,23,42,.06);">
+        <p style="font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin:0 0 4px;font-weight:600;">Desembocadura</p>
+        <p style="font-size:15px;font-weight:700;margin:0;color:var(--text);line-height:1.3;">Océano Pacífico</p>
+        <p style="font-size:12px;color:var(--muted);margin:2px 0 0;">0 m s.n.m. · Lima y Callao</p>
+      </div>
+    </div>
+
+    <!-- LEDE -->
+    <div class="reveal" style="margin-bottom:48px;">
+      <p style="font-size:18px;line-height:1.75;color:var(--text);margin:0 0 14px;font-weight:500;">El <strong>río Chillón</strong> es un curso de agua de la <strong>vertiente del Pacífico</strong>, en la costa central del Perú. Junto con los ríos Rímac y Lurín, conforma una de las tres cuencas hidrográficas de <strong>Lima Metropolitana</strong>.</p>
+      <p style="font-size:16px;line-height:1.8;color:#3b4a57;margin:0;">Sus aguas nacen de la <strong>Laguna de Chonta</strong> —en el distrito de Huaros, provincia de Canta— y de los glaciares de la Cordillera de la Viuda. Su caudal fluctúa durante el año y alcanza su nivel máximo en el <strong>verano austral</strong>, entre diciembre y marzo. Para los pobladores de Lima Norte es una fuente histórica de vida para la agricultura y la ganadería.</p>
+    </div>
+
+    <!-- RECORRIDO -->
+    <div class="reveal" style="margin-bottom:56px;">
+      <p style="font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--accent);margin:0 0 6px;font-weight:700;">El recorrido</p>
+      <h2 style="font-family:'Fraunces',serif;font-weight:600;font-size:30px;margin:0 0 8px;color:var(--text);">De la sierra al mar en 126 km</h2>
+      <p style="color:var(--muted);font-size:14px;margin:0 0 28px;line-height:1.6;">Pasa el cursor sobre cada estación para ver el detalle.</p>
+
+      <div style="position:relative;margin-bottom:22px;">
+        <div class="river-line" style="position:absolute;top:22px;left:6%;right:6%;"></div>
+        <div style="display:flex;flex-wrap:wrap;gap:14px;position:relative;">
+          <div class="station" style="flex:1 1 180px;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px 16px 16px;">
+            <div class="dot" style="width:14px;height:14px;border-radius:50%;background:var(--accent-soft);border:2px solid var(--accent);margin-bottom:12px;"></div>
+            <p style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0 0 4px;font-weight:700;">Estación 01 · Nacimiento</p>
+            <p style="font-weight:700;margin:0 0 6px;font-size:15px;">Laguna de Chonta</p>
+            <p style="font-size:13px;color:var(--muted);margin:0;line-height:1.55;">Distrito de Huaros, provincia de Canta. Se alimenta también de los glaciares de la Cordillera de la Viuda.</p>
+          </div>
+          <div class="station" style="flex:1 1 180px;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px 16px 16px;">
+            <div class="dot" style="width:14px;height:14px;border-radius:50%;background:var(--accent-soft);border:2px solid var(--accent);margin-bottom:12px;"></div>
+            <p style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0 0 4px;font-weight:700;">Estación 02 · Cuenca alta</p>
+            <p style="font-weight:700;margin:0 0 6px;font-size:15px;">Lagunas de reserva</p>
+            <p style="font-size:13px;color:var(--muted);margin:0;line-height:1.55;">Las lagunas Chunchón, Leóncocha y Azulcocha almacenan agua superficial en la parte alta de la cuenca.</p>
+          </div>
+          <div class="station" style="flex:1 1 180px;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px 16px 16px;">
+            <div class="dot" style="width:14px;height:14px;border-radius:50%;background:var(--accent-soft);border:2px solid var(--accent);margin-bottom:12px;"></div>
+            <p style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0 0 4px;font-weight:700;">Estación 03 · Valle medio</p>
+            <p style="font-weight:700;margin:0 0 6px;font-size:15px;">Valle agrícola de Lima Norte</p>
+            <p style="font-size:13px;color:var(--muted);margin:0;line-height:1.55;">Aguas superficiales, subterráneas (pozos) y puquios riegan cultivos y sostienen la ganadería del valle.</p>
+          </div>
+          <div class="station" style="flex:1 1 180px;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px 16px 16px;">
+            <div class="dot" style="width:14px;height:14px;border-radius:50%;background:var(--accent-soft);border:2px solid var(--accent);margin-bottom:12px;"></div>
+            <p style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0 0 4px;font-weight:700;">Estación 04 · Desembocadura</p>
+            <p style="font-weight:700;margin:0 0 6px;font-size:15px;">Océano Pacífico</p>
+            <p style="font-size:13px;color:var(--muted);margin:0;line-height:1.55;">Vierte sus aguas entre los límites de Lima y el Callao, a 0 m de altitud. Coordenadas: 11°56′S 77°08′O.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CUENCA -->
+    <div class="reveal" style="margin-bottom:56px;">
+      <p style="font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--accent);margin:0 0 6px;font-weight:700;">La cuenca</p>
+      <h2 style="font-family:'Fraunces',serif;font-weight:600;font-size:30px;margin:0 0 14px;color:var(--text);">Cuatro fuentes, un solo valle</h2>
+      <p style="color:#3b4a57;font-size:16px;line-height:1.8;margin:0 0 24px;">La cuenca del Chillón ocupa casi en su totalidad el <strong>departamento de Lima</strong> y la <strong>provincia constitucional del Callao</strong>. Según la Autoridad Nacional del Agua, el área de drenaje total hasta su desembocadura es de <strong>2 222,31 km²</strong>. Limitada por cadenas de cerros de descenso sostenido, reúne cuatro tipos de fuentes de agua:</p>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;">
+        <div style="background:var(--card);border:1px solid var(--border);border-top:3px solid var(--accent);border-radius:12px;padding:18px;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0d9488" stroke-width="2" style="margin-bottom:10px;"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+          <p style="font-weight:700;margin:0 0 6px;font-size:15px;">Agua superficial</p>
+          <p style="font-size:13px;color:var(--muted);margin:0;line-height:1.55;">Proveniente del escurrimiento de las lluvias en toda la cuenca.</p>
+        </div>
+        <div style="background:var(--card);border:1px solid var(--border);border-top:3px solid var(--accent);border-radius:12px;padding:18px;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0d9488" stroke-width="2" style="margin-bottom:10px;"><path d="M3 18h18M5 18V9l7-5 7 5v9M9 18v-4h6v4"/></svg>
+          <p style="font-weight:700;margin:0 0 6px;font-size:15px;">Lagunas de altura</p>
+          <p style="font-size:13px;color:var(--muted);margin:0;line-height:1.55;">Chunchón, Leóncocha y Azulcocha, en la cuenca alta.</p>
+        </div>
+        <div style="background:var(--card);border:1px solid var(--border);border-top:3px solid var(--accent);border-radius:12px;padding:18px;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0d9488" stroke-width="2" style="margin-bottom:10px;"><path d="M12 2v6M8 8h8M6 8v12h12V8M10 14h4"/></svg>
+          <p style="font-weight:700;margin:0 0 6px;font-size:15px;">Agua subterránea</p>
+          <p style="font-size:13px;color:var(--muted);margin:0;line-height:1.55;">Extraída por bombeo de pozos en el llano del valle.</p>
+        </div>
+        <div style="background:var(--card);border:1px solid var(--border);border-top:3px solid var(--accent);border-radius:12px;padding:18px;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0d9488" stroke-width="2" style="margin-bottom:10px;"><path d="M4 12c2-3 4-3 6 0s4 3 6 0 4-3 4 0M4 18c2-3 4-3 6 0s4 3 6 0 4-3 4 0"/></svg>
+          <p style="font-weight:700;margin:0 0 6px;font-size:15px;">Puquios y drenes</p>
+          <p style="font-size:13px;color:var(--muted);margin:0;line-height:1.55;">Manantiales tradicionales y drenes que complementan el suministro.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- HISTORIA -->
+    <div class="reveal" style="margin-bottom:56px;">
+      <p style="font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--accent2);margin:0 0 6px;font-weight:700;">Historia</p>
+      <h2 style="font-family:'Fraunces',serif;font-weight:600;font-size:30px;margin:0 0 24px;color:var(--text);">Un valle habitado desde el origen</h2>
+
+      <div style="position:relative;">
+        <div class="tl-item" style="margin-bottom:26px;">
+          <div class="tl-line"></div>
+          <p style="font-size:12px;font-weight:700;color:var(--accent2);margin:0 0 3px;letter-spacing:.05em;">8500 – 7500 a. C. · Periodo Precerámico</p>
+          <p style="font-weight:700;margin:0 0 4px;font-size:16px;">Los primeros limeños</p>
+          <p style="font-size:14px;color:var(--muted);margin:0;line-height:1.6;">Los habitantes del valle del Chillón fueron los primeros en habitar la costa peruana en el Periodo Precerámico.</p>
+        </div>
+        <div class="tl-item" style="margin-bottom:26px;">
+          <div class="tl-line"></div>
+          <p style="font-size:12px;font-weight:700;color:var(--accent2);margin:0 0 3px;letter-spacing:.05em;">Periodo Lítico andino</p>
+          <p style="font-weight:700;margin:0 0 4px;font-size:16px;">Cultura Chivateros</p>
+          <p style="font-size:14px;color:var(--muted);margin:0;line-height:1.6;">En el valle formado por el río se estableció la cultura Chivateros, uno de los asentamientos líticos más antiguos de la región.</p>
+        </div>
+        <div class="tl-item" style="margin-bottom:26px;">
+          <div class="tl-line"></div>
+          <p style="font-size:12px;font-weight:700;color:var(--accent2);margin:0 0 3px;letter-spacing:.05em;">Intermedio Tardío</p>
+          <p style="font-weight:700;margin:0 0 4px;font-size:16px;">Cultura Colli</p>
+          <p style="font-size:14px;color:var(--muted);margin:0;line-height:1.6;">Posteriormente se estableció la cultura Colli, señorío de la costa que dominó el valle antes de la expansión incaica.</p>
+        </div>
+        <div class="tl-item">
+          <p style="font-size:12px;font-weight:700;color:var(--accent2);margin:0 0 3px;letter-spacing:.05em;">Época republicana · Actualidad</p>
+          <p style="font-weight:700;margin:0 0 4px;font-size:16px;">Fuente de vida para Lima Norte</p>
+          <p style="font-size:14px;color:var(--muted);margin:0;line-height:1.6;">La cuenca es referente histórico desde la época preincaica hasta la republicana, y hoy sostiene la producción agropecuaria de los distritos del norte de Lima.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTAMINACIÓN -->
+    <div class="reveal" style="margin-bottom:56px;background:#fff5f0;border:1px solid rgba(196,105,61,.25);border-radius:18px;padding:28px 26px;">
+      <p style="font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:#b4471c;margin:0 0 6px;font-weight:700;">Alerta ambiental</p>
+      <h2 style="font-family:'Fraunces',serif;font-weight:600;font-size:28px;margin:0 0 14px;color:var(--text);">El río que no puedes tocar</h2>
+      <p style="color:#5a3a2a;font-size:15px;line-height:1.75;margin:0 0 22px;">Hoy el Chillón es <strong>uno de los ríos más contaminados del Perú</strong>. Basura y desmonte, descarga de aguas residuales, agroquímicos, plantas de fundición clandestinas y criaderos de cerdos vierten sus desechos a sus aguas.</p>
+
+      <div style="background:#fff;border:1px solid rgba(196,105,61,.2);border-radius:12px;padding:20px 22px;margin-bottom:20px;">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:10px;flex-wrap:wrap;gap:6px;">
+          <p style="font-weight:700;margin:0;font-size:15px;">Presencia de <em>Escherichia coli</em></p>
+          <p style="margin:0;font-size:28px;font-weight:800;color:#dc2626;font-variant-numeric:tabular-nums;">12× <span style="font-size:13px;font-weight:600;color:var(--muted);">el límite seguro</span></p>
+        </div>
+        <div style="position:relative;height:26px;background:rgba(128,128,128,.08);border-radius:6px;overflow:hidden;margin-bottom:8px;">
+          <div class="bar-fill" id="barfill"></div>
+          <div style="position:absolute;top:0;bottom:0;left:8.3%;width:2px;background:#0f172a;"></div>
+        </div>
+        <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--muted);">
+          <span style="margin-left:calc(8.3% - 22px);">Límite seguro</span>
+          <span style="color:#b4471c;font-weight:700;">Río Chillón</span>
+        </div>
+        <p style="font-size:12.5px;color:#7a4a32;margin:12px 0 0;line-height:1.6;">La bacteria <em>E. coli</em> puede causar insuficiencia renal y pone en riesgo la vida de <strong>niños y adultos mayores</strong>. Fuente: Diario El Comercio, 2020.</p>
+      </div>
+
+      <div style="display:flex;flex-wrap:wrap;gap:8px;">
+        <span style="font-size:12px;padding:5px 12px;border-radius:20px;background:rgba(220,38,38,.1);color:#991b1b;border:1px solid rgba(220,38,38,.25);font-weight:600;">Residuos sólidos</span>
+        <span style="font-size:12px;padding:5px 12px;border-radius:20px;background:rgba(220,38,38,.1);color:#991b1b;border:1px solid rgba(220,38,38,.25);font-weight:600;">Aguas residuales</span>
+        <span style="font-size:12px;padding:5px 12px;border-radius:20px;background:rgba(220,38,38,.1);color:#991b1b;border:1px solid rgba(220,38,38,.25);font-weight:600;">Agroquímicos</span>
+        <span style="font-size:12px;padding:5px 12px;border-radius:20px;background:rgba(220,38,38,.1);color:#991b1b;border:1px solid rgba(220,38,38,.25);font-weight:600;">Fundiciones clandestinas</span>
+        <span style="font-size:12px;padding:5px 12px;border-radius:20px;background:rgba(220,38,38,.1);color:#991b1b;border:1px solid rgba(220,38,38,.25);font-weight:600;">Criaderos de cerdos</span>
+      </div>
+    </div>
+
+    <!-- AUTORÍA -->
+    <div class="reveal" style="margin-bottom:40px;background:linear-gradient(135deg,#0f3d38,#0d9488);border-radius:18px;padding:30px 28px;color:#fff;box-shadow:0 18px 40px rgba(13,148,136,.28);">
+      <p style="font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:#7fe3d6;margin:0 0 14px;font-weight:700;">Elaborado por</p>
+      <p style="font-family:'Fraunces',serif;font-weight:700;font-size:32px;margin:0 0 4px;line-height:1.1;">Maikoll Delgado</p>
+      <p style="font-size:14px;color:#c9ece8;margin:0 0 22px;">Estudiante · Trabajo de investigación geográfica</p>
+
+      <div style="border-top:1px solid rgba(255,255,255,.2);padding-top:18px;">
+        <p style="font-weight:700;font-size:16px;margin:0 0 12px;color:#fff;">Institución Educativa 2002 «Virgen María del Rosario»</p>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px 22px;font-size:13px;line-height:1.55;color:#d8f0ed;">
+          <p style="margin:0;"><strong style="color:#fff;">Dirección:</strong><br>Mz F Lote 17, Coop. Ex Hacienda Naranjal (Tantamayo)</p>
+          <p style="margin:0;"><strong style="color:#fff;">Ubicación:</strong><br>Distrito de San Martín de Porres · Lima, Lima (Cód. postal 150135)</p>
+          <p style="margin:0;"><strong style="color:#fff;">UGEL:</strong><br>UGEL 02 – Rímac · DRE Lima Metropolitana</p>
+          <p style="margin:0;"><strong style="color:#fff;">Gestión:</strong><br>Pública de gestión directa · Escolarizada · Mixta · Primaria y Secundaria</p>
+          <p style="margin:0;"><strong style="color:#fff;">Cód. modular (MINEDU):</strong><br>0732255 (Primaria) · 0732339 (Secundaria) · Local 332938</p>
+          <p style="margin:0;"><strong style="color:#fff;">RUC:</strong><br>20605652272</p>
+          <p style="margin:0;"><strong style="color:#fff;">Teléfono:</strong><br>(01) 528-8075</p>
+          <p style="margin:0;"><strong style="color:#fff;">Directora:</strong><br>Lizeth Marilis Sosa Manchego</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div style="border-top:1px solid var(--border);padding:24px 0 40px;">
+      <p style="font-size:12px;color:var(--muted);line-height:1.7;margin:0;">
+        <strong style="color:var(--text);">Fuentes:</strong>
+        <a class="src" href="https://es.wikipedia.org/wiki/R%C3%ADo_Chill%C3%B3n">Wikipedia · Río Chillón</a> ·
+        Autoridad Nacional del Agua (ANA), <em>Estudio integral de los recursos hídricos de la cuenca del río Chillón</em> (2003) ·
+        Olarte Navarro, B. <em>La cuenca del río Chillón: Problemática y potencial productivo</em> (2012) ·
+        Diario El Comercio, <em>#AguaQueMata | Chillón: el río que no puedes tocar</em> (2020) ·
+        Datos de la IE: MINEDU / ESCALE (Padrón oficial), UGEL 02.
+      </p>
+      <p style="font-size:11px;color:var(--muted);margin:10px 0 0;">Artículo web elaborado a partir del artículo de Wikipedia. La imagen de portada es una ilustración decorativa generada, no una fotografía real del río.</p>
+    </div>
+
+  </div>
+</div>
+</div>
+
+<script>
+(function(){
+  var b = document.getElementById('barfill');
+  if(b){ setTimeout(function(){ b.classList.add('go'); }, 400); }
+})();
+</script>
+</html>
+ 
